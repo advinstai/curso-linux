@@ -1,0 +1,4 @@
+funcao1 () {
+	echo " Seja bem-vindo $1 "
+}
+funcao1 $1

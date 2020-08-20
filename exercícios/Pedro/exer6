@@ -1,0 +1,11 @@
+exer6(){
+echo "Numeros $1, $2 e $3."
+	if [ $1 -eq $2 -a $1 -eq $3 -a $2 -eq $3 ] ; then
+	echo "Triangulo equilatero."
+	elif [ $1 -eq $2 -o $1 -eq $3 -o $2 -eq $3 ] ; then 
+	echo "Triangulo isóceles"
+	else
+	echo "Triangulo escaleno"
+	fi
+}
+exer6 $1 $2 $3

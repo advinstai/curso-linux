@@ -1,0 +1,11 @@
+for i in seq `seq 1 10`; do
+	var=$RANDOM
+	echo "Numero  $var"
+	if [ $var -gt 1000 ] ; then
+	echo " $var é maior que 1000"
+	else
+	echo "$var menor que 1000"
+	fi
+done
+
+
