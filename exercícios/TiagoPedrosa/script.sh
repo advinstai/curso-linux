@@ -156,8 +156,8 @@ exercicio09() {
 #primeiro parametro ($1) = primeira string
 #primeiro parametro ($2) = segunda string
 exercicio10() {
-  text1=$1
-  text2=$2
+  text1=${1,,}
+  text2=${2,,}
   count=0
   #Transforma a string em array e faz um for de acordo com o tamanho da string
   for i in $(seq 1 ${#text1}) ; do
