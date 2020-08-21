@@ -1,0 +1,13 @@
+exer5(){
+	echo "Digite um caractere: " 
+	read car
+	if [ $car = "y" -o $car = "Y" ] ; then
+	echo "YES"
+	elif [ $car = "n" -o $car = "N" ] ; then
+	echo "NO"
+	else
+	echo "Nenhum"
+
+	fi
+}
+exer5

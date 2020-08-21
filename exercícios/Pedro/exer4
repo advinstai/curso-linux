@@ -1,0 +1,9 @@
+exer4(){
+echo "Numeros $1, $2."
+echo "Soma: $(($1+$2))"
+echo "Diferença: $(($1-$2))"
+echo "Produto: $(($1*$2))"
+echo "Divisão: $(($1/$2))"
+echo "Resto: $(($1%$2))"
+}
+exer4 $1 $2

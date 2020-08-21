@@ -1,0 +1,5 @@
+exer7(){
+	shuf -i 0-100  -n $1 -o ~/tmp/bash/exer7.txt
+echo "n = $1"
+}
+exer7 $1
